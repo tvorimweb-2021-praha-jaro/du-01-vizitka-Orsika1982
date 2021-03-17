@@ -1,1 +1,4 @@
-h1{font-size: 12px;}
+body{background-color: grey; color:lightgrey; font-family: Redressed;line-height: 1.5;}
+h1{font-size: 20px;}
+.Mypic {width: 50px; float: left; border-radius: 20px 20px; margin-bottom: 15px; margin-right: 15px;}
+a {color:lightgray; font-style: italic;}
