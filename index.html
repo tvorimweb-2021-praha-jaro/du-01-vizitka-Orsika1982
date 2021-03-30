@@ -1,44 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Orsi's card</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com"> 
-    <link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet">  
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 </head>
+
+
 <body>
-    <img class="Mypic" src="AD28B152-B86C-43B2-876C-805D25AD4204.jpeg">
-    <h1>Orsolya Kalina</h1><br>
-    
-    
-    <p>Hi, my name is Orsi and i come from Slovakia, living in Prague for 15 years. <br>
-    If you would like to know more about me, click on the following facebook link:
-    <a href="https://www.facebook.com/orsolya.kalina" target="blank">Orsi's life</a><br>
-    Any questions? E-mail me on: <a href="mailto:orsolya.kalina@gmail.com">orsolya.kalina@gmail.com</a>
+
+    <!--Header-->
+
+    <header class="orsi">
+        <h1>My life</h1>
+    </header>
+
+    <ul class="menu">
+        <li> <a href="#aboutme">About me</a></li>
+        <li> <a href="#pictures">Pictures</a></li>
+        <li> <a href="#socialmedia">Social media</a></li>
+    </ul>
+
+
+    <!--AboutMe-->
+
+    <img src="./assets/orsi_and_rusty.jpg" alt="Picture of Orsi and Rusty">
+
+    <section id="aboutme">
+        <section class="aboutme">
+            <h2>
+                About me
+            </h2>
+            <p>Hi, my name is <strong>Orsi Kalina</strong> and i come from Slovakia, living in Prague for 15 years.</p>
+            <p>On the picture you can see me with my partner in crime, my dog, <strong>Rusty</strong>. He is a 8 year old jack russel terrier. He makes sure i am always active, that i go out and spend lots of time in the nature.</p>
+            <p>I have few hobbies i like to do when i have time: playing tennis and volleyball, being with my friends and learning new things. My big passion is traveling.</p>
+            <p>I had a chance to visit many countries not only for pleasure but also work related. I like to get to know new countries and cultures. Its always interesting to see how the people behave in different part of world.</p>
+            <p>Currently i am unemployed and i am trying to use my time as best as i can, so i started to do some courses, just like HTML/CSS and Salesforce administrator courses.</p>
+
+        </section>
+    </section>
+
+    <!--Pics-->
+    <section id="pictures">
+        <section class="pictures">
+            <h2>
+                Pictures of my travels
+            </h2>
+            <ul class="travelpics">
+                <li><img src="assets/ecuador.jpg" alt="Ecuador">Ecuador</li>
+                <li><img src="assets/galapagos.jpg" alt="Galapagos">Galapagos</li>
+                <li><img src="assets/jordan.jpg" alt="Jordan">Jordan</li>
+                <li><img src="assets/mexico.jpg" alt="Mexico">Mexico</li>
+                <li><img src="assets/telaviv.jpg" alt="Tel Aviv">Tel Aviv</li>
+            </ul>
+        </section>
+    </section>
+    <!--SocialMedia-->
+
+    <section id="socialmedia">
+        <section class="socialmedia">
+            <h2>
+                Social media
+            </h2>
+            <p>If you would like to know more about me, click on the following facebook link:
+                <a href="https://www.facebook.com/orsolya.kalina" target="blank">Orsi's life.</a>
+            </p>
+            <p>Would you like to know more about my professional life? Look out my linkedin profile: <a href="https://www.linkedin.com/in/orsolyakalina/" target="blank">Orsolya Kalina.</a></p>
+            <p>Any questions? E-mail me on: <a href="mailto:orsolya.kalina@gmail.com">orsolya.kalina@gmail.com</a></p>
+        </section>
+    </section>
 </body>
+
 </html>
-
-
-
-
-<!--
-Vytvoř osobní vizitku se:
-
-- jménem,
-- krátkým odstavcem o sobě,
-- odkazem na svůj profil,
-- vlastní fotkou (aby tě lektoři poznali),
-- odkazem na svůj e-mail.
-
-Vizitku ostyluj pomocí CSS:
-
-- Nastav barvu pozadí, popředí
-- Uprav velikost písma, zarovnání textu
-- Přidej si vlastní písmo např. z Google Fonts
-- Další vlastnosti dle vlastního uvážení
-
-Tip: Webdesign In 4 Minutes https://jgthms.com/web-design-in-4-minutes/
--->
